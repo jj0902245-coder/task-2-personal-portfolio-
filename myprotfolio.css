@@ -1,0 +1,190 @@
+
+
+header{
+    
+    padding :20px 0;
+    color: white;
+    background-color: brown;
+    background: linear-gradient(50deg, rgb(190, 87, 87) #ff9800);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+     box-shadow: 0  4px 8px rgba(0,0,0,0.3);
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: color #f9f9f9;
+    color: #331;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header nav{
+    
+    text-transform: capitalize;
+    display: flex;
+    gap: 27px;
+
+    justify-content: center;
+}
+
+header nav a{
+    
+    color: blanchedalmond;
+    
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+ header nav a:hover{
+    color: brown;
+ }
+section {
+    min-height: 120vh;
+    padding :100px 20px 50px;
+    
+
+}
+
+h1{
+    text-align: center;
+    color :rgb(106, 106, 179);
+    margin-bottom:20px;
+}
+
+.container{
+    margin:auto;
+    border-radius: 25px;
+    
+    padding:40px;
+    max-width: 1000px;
+    background: wheat;
+    box-shadow: 0 4px 13px rgba(0,0,0,0.2);
+}
+/*section colors*/
+#home{background: #997a4e;
+display: flex;
+justify-content: center;}
+
+#skills{background: #619722;}
+#social-links{background: rgb(63, 16, 38);}
+#eduction{background: #4e3b69;}
+#language{background: #ffffff;}
+#schoolname {background:rgb(155, 51, 51);}
+#hobbies {background: rgb(71, 71, 143);}
+#contact{background: #fff3e0;}    
+
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    background: #da8b16;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+    transition: 0.4s;
+    margin:10px 0;
+}
+
+ul li:hover{
+    background: #96463f;
+    transform: scale(2.5);
+}
+
+ol{
+    list-style: none;
+    padding: 0;
+}
+
+ol li{
+    background: #ac4dac;
+    border-radius: 15px;
+    color:yellow;
+    font-weight: 600;
+    transition: 0.1s;
+    margin:12px 0;
+
+}
+
+ol li.hover{
+    background: orangered;
+    transform: scale(1.6);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    color:rgb(80, 80, 175);
+}
+
+th,td{
+    padding :10px;
+    text-align: center;
+
+}
+
+table ,th ,td {
+    border: 2px soild gray;
+}
+
+.profile :pic {
+    display: block;
+    background: url();
+    margin:auto;
+    height: 120px;
+    width:120px;
+    border: 6px solid #ff9800;
+    margin-bottom: 10px;
+}
+
+p style{
+    text-align: center;
+    font-size: 18px;
+}
+footer p2{
+margin :7px;
+font-size: bold;
+letter-spacing: 1px;
+color:#ffffff;
+ border-top: 2px ,soild;
+
+ width: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(161, 30, 173);
+    padding: 15px;
+}
+
+/*For mobile screen (max 768px) */
+@media(max-width:768px){
+    body{
+        background-color: lightblue; 
+        font-size: 16px;
+    }
+}
+
+/*Media Quary for tabblets*/
+@media(min-width :690px)and (max-width-1045px){
+    body{
+        background-color: lightcoral;
+        font-size: 19px;
+    }
+}
+
+/*media laptop/dessktop*/
+@media (min-width:1067px){
+    body{
+        background-color: rgb(110, 57, 66);
+        font-size: 22px;
+    }
+}
